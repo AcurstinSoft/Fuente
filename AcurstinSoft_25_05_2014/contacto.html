@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="description" content="Soluciones integrales en software">
+	<meta name="keywords" content="acurstinsoft, acurstin, soft, software">
+	<meta name="author" content="Acurstin Soft">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Acurstin Soft</title>
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/contacto.css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="../jquery/jquery.min.js"></script>  
+	<script src="../jquery/jquery-ui.min.js"></script>  
+	<script src="../js/animacion.js"></script> 
+</head>
+<body onload="redireccionar()">
+	<div class ="barrasuperior">
+		<a  id="loginButton" class="loginButton">Entrar</a>
+		<div id="Login_mostrar" class ="Login_mostrar"> 
+			<form class="loginForm" action="restablecer.php" method="post">           
+				<input type="text" name="email" class="email" placeholder="Usuario"/>
+				<input type="password" name="password" class="password" placeholder="Contraseña"/>
+				<input type="submit" id="login" class="login" value="Entrar"/><br>
+				<a href="#">¿Olvido su contraseña?</a>
+			</form>
+		</div>  
+	</div>
+	<div class="contenedor_principal">
+		<header> 
+			<div class="logo">
+				<div class="imagen">                     
+					<!--https://www.safecreative.org/work/1403200394525-logo-acurstin-soft-->
+				</div>
+			</div>
+			<h1>Acurstin Soft</h1>
+		</header>
+		<nav>	
+			<a href="index.html"><div class="inicio" title="Inicio"></div></a>
+			<div class="nosotros" title="Nosotros"></div>
+			<a href="portafolio.html"><div class="servicios" title="Servicios"></div></a>
+			<div class="soporte" title="Soporte"></div>
+			<a href="contacto.html"><div class="contacto" title="Contacto"></div></a>
+		</nav>
+	<section class="container">	
+		<h2>Contactenos</h2>
+		<div class="formulario">
+			<form action="contacto.php" method="post" id="usrform"> 
+				<table>
+				
+					<tr>
+						<td><label>Nombre</label></td>
+						<td><input type="text" name="nombre" autofocus></td>
+					</tr>
+
+					<tr>
+						<td><label>e-mail</label></td>
+						<td><input type="email" name="correo"></td>
+					</tr>
+
+					<tr>
+						<td><label>Asunto</label></td>
+						<td><input type="text" name="asunto"></td>
+					</tr>
+
+					<tr>
+						<td><label>Mensaje</label></td>
+						<td><textarea rows="5" cols="20" name="mensaje" form="usrform" id="area"></textarea></td>
+					</tr>
+
+					<tr>
+						<td><input type="submit" name="enviar" value="Enviar"></td>
+						<td><input type="reset" value="Borrar"></td>
+					</tr>
+
+				</table>
+			</form>
+			</div>
+			<div class="redes">
+					<a href="https://www.facebook.com/AcurstinSoft" target="_blank" id="icono"><img src="img/facebook.png" alt="facebook"></a><br>
+					<a href="https://plus.google.com/116656404072387912726/posts" target="_blank" id="icono"><img src="img/googleplus.png"></a><br>
+					<a href="https://co.linkedin.com/" target="_blank"><img src="img/linkedin.png" id="icono"></a><br>
+					<a href="https://twitter.com/AcurstinSoft" target="_blank"><img src="img/twitter.png" title="@AcurstinSoft" id="icono"></a><br>
+					<a href="skype:AcurstinSoft?chat"><img src="img/skype.png" title="ID : AcurstinSoft" id="icono"></a>
+			</div>
+			<div class="ctexto">
+				<p>
+					Contactanos en las redes sociales o dejanos un mensaje llenando el formulario para contactarte.<strong> Si nos envias un mensaje desde el formulario entre las 8 am y las 6 pm te responderemos al instante.</strong>
+				</p>
+			</div>
+		
+		</div>
+	</section>
+	<div class="pie">
+			<p>&copy; Acurstin - 2014</p>          								
+	</div>
+</div>
+</body> 
+</html> 

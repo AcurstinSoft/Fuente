@@ -1,0 +1,220 @@
+@charset "utf-8";
+*
+{
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+}
+a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #CCC;
+}
+.barrasuperior
+{
+	background-color: #000;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	margin-left:-8px;
+}
+.barrasuperior a:hover
+{
+	color: #60BF48;
+	border: solid 1px #60BF48; 
+	cursor: pointer;
+	transition: 1s ease-out;
+
+}
+body
+{
+	background-color: #1E5A69;
+	font-size: 16px;
+}
+.contacto
+{
+	background: url(../img/contacto.png);
+	background-size: 100%;
+}
+.contacto:hover
+{
+	opacity: 1;
+}
+.container
+{
+	background-color: rgba(0,0,0,0.7);
+	height: 450px;
+	margin-left:60px;
+	width: 900px;
+	border-radius: 5px;
+}
+.contenedor_principal
+{
+	height: auto;
+	margin: auto;
+	width: 960px;
+}
+.email
+{
+	height: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 220px;
+}
+footer
+{
+	color: #000;
+	margin: auto;
+}
+h1
+{
+	color: #FFF;
+	font-size:3.4em;
+	margin:3px 10px 0px 0px;
+}
+header
+{
+	background-color: #0766B5;
+	border: solid #000;
+	border-radius: 50px;
+	box-shadow: #000 0 0 30px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-top: 60px;
+	position: relative;
+	width: 500px;
+	z-index: 3;
+}
+.inicio
+{
+	background: url(../img/inicio.png);
+	background-size: 100%;
+}
+.inicio,.nosotros,.soporte,.contacto,.servicios
+{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 80px;
+	opacity: 0.2;
+	transition: 1s;
+	width: 100px;
+}
+.inicio:hover
+{
+	opacity: 1;
+}
+.login
+{
+	border: none;
+	color: #000;
+	font-weight: bold;
+	height: 35px;
+	width: 100px;
+}
+.Login_mostrar
+{
+	background-color: #000;
+	border-radius: 0 0 20px 20px;
+	display: none;
+	height: 180px;
+	position: absolute;
+	right: 40px;
+	top: 50px;
+	width: 260px;
+	z-index: 2;
+}
+.loginButton
+{
+	margin-right: 25px;
+	padding: 12px;
+	position: absolute;
+	right: 150px;
+	transition: 1s;
+}
+.loginForm
+{
+	margin-top: 10px;
+}
+.loginForm a
+{
+	color: #000;
+}
+.logo
+{
+	background-color: #CCC;
+	background-size: 100%;
+	border: 3px #333 solid;
+	border-radius: 100%;
+	box-shadow: #000 0 10px 50px;
+	float: left;
+	height: 150px;
+	margin-left: -15px;
+	margin-top: -50px;
+	width: 150px;
+}
+.logo .imagen
+{
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100px;
+	left: -18px;
+	position: relative;
+	top: 20px;
+	width: 180px;
+}
+nav
+{ 
+	background: rgba(57,14,87,0.9);
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+	height: auto;
+	position: absolute;
+	top: 210px;
+	width: 100px;
+}
+.nosotros
+{
+	background: url(../img/nosotros.png);
+	background-size: 100%;
+}
+.nosotros:hover
+{
+	opacity: 1;
+	
+}
+.password
+{
+	height: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 220px;
+}
+.pie
+{
+	color: #FFF;
+	margin-top: 5px;
+}
+.servicios
+{
+	background: url(../img/servicios.png);
+	background-size: 100%;
+}
+.servicios:hover
+{
+	opacity: 1;
+}
+.soporte
+{
+	background: url(../img/soporte.png);
+	background-size: 100%;
+}
+.soporte:hover
+{
+	opacity: 1;
+}

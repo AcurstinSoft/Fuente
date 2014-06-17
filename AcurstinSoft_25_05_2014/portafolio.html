@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="description" content="Soluciones integrales en software">
+	<meta name="keywords" content="acurstinsoft, acurstin, soft, software">
+	<meta name="author" content="Acurstin Soft">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Acurstin Soft</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/portafolio.css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="jquery/jquery.min.js"></script>  
+	<script src="jquery/jquery-ui.min.js"></script>  
+	<script src="js/animacion.js"></script> 
+</head>
+<body onload="redireccionar()">
+	<div class ="barrasuperior">
+		<a  id="loginButton" class="loginButton">Entrar</a>
+		<div id="Login_mostrar" class ="Login_mostrar"> 
+			<form class="loginForm" action="restablecer.php" method="post">           
+				<input type="text" name="email" class="email" placeholder="Usuario" />
+				<input type="password" name="password" class="password" placeholder="Contraseña" />
+				<input type="submit" id="login" class="login" value="Entrar" />
+				<a href="#">¿Olvido su contraseña?</a>
+			</form>
+		</div>  
+	</div>
+	<div class="contenedor_principal">
+		<header> 
+			<div class="logo">
+				<div class="imagen">                     
+					<!--https://www.safecreative.org/work/1403200394525-logo-acurstin-soft-->
+				</div>
+			</div>
+			<h1>Acurstin Soft</h1>
+		</header>
+		<nav>
+			<a href="index.html"><div class="inicio" title="Inicio"></div></a>
+			<div class="nosotros" title="Nosotros"></div>
+			<a href="portafolio.html"><div class="servicios" title="Servicios"></div></a>
+			<div class="soporte" title="Soporte"></div>
+			<a href="contacto.html"><div class="contacto" title="Contacto"></div></a>
+		</nav>
+	<section class="container">	
+		<div class="titulo"><h2>Portafolio</h2><hr><p class="sub">aqui encontraras nuestros proyectos!</p></div>	
+		
+		<div class="view view-first">
+        	<img src="img/fundacion.jpg" />
+            <div class="mask">
+               <h3>Fundacion</h3>
+               <p>Una organizacion sin Animo de lucro para la comunidad de la comuna 6</p>
+               <a href="#" class="info">Ver Sitio</a>
+            </div>
+        </div> 	
+        	<div class="view view-first">
+        	<img src="img/1.jpg" />
+            <div class="mask">
+               <h3>Vingen</h3>
+               <p>un sitio de posteo de cosas e ideas</p>
+               <a href="#" class="info">Ver Sitio</a>
+            </div>
+        </div>
+        <div class="view view-first">
+        	<img src="img/1.jpg" />
+            <div class="mask">
+               <h3>Artificial</h3>
+               <p>banda musical de genero post-hardcore</p>
+               <a href="#" class="info">Ver Sitio</a>
+            </div>
+        </div>
+        <div class="view view-first">
+        	<img src="img/1.jpg" />
+            <div class="mask">
+               <h3>Proximamente</h3>
+               <p>sitio en construccion</p>
+               <a href="#" class="info">Ver Sitio</a>
+            </div>
+        </div>
+	</section>
+	<div class="pie">
+		<footer>
+			<script>
+			pie()
+			</script>                								
+		</footer>
+	</div>
+</div>
+</body> 
+</html> 

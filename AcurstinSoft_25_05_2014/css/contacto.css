@@ -1,0 +1,69 @@
+.ctexto
+{	
+	color: #CCC;
+	position: relative;
+	top:200px;
+}
+
+.formulario
+{
+	color:#FFF;
+	position: relative;
+	left:200px;
+	top:100px;
+	width: 380px;
+	padding: 20px;
+
+}
+.formulario input[type=text], input[type=email] 
+{
+	width: 300px;
+	text-align: left;
+}
+
+.formulario input[type=submit], input[type=reset]
+{
+	background: #A3D0FF;
+	border: none;
+	display: block;
+	position: relative;
+	left: 250px;
+}
+
+h2
+{
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 350px;
+	top: 20px;
+}
+
+
+.redes
+{
+	margin-top: 50px;
+}
+.redes img
+{
+	margin: 1.5px;
+}
+.redes p
+{
+	color: #FFF;
+}
+
+.redes
+{
+	color:#FFF;
+	position: absolute;
+	right: 100px;
+	top: 50px;
+}
+
+textarea
+{
+	width: 300px;
+	text-align: left;
+}
