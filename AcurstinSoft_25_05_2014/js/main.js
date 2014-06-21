@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#loginButton').click(function(){
-   	 $('#Login_mostrar').slideToggle('slow');
+   	 $('#Login_mostrar').slideToggle('fast');
 	});
 	
 	$('#Login_mostrar').mouseleave(function(){
@@ -19,26 +19,6 @@ $(document).ready(function() {
 		$('.clsContenedor').css("width", "0"); 
 	});
 
-	//Redireccionar a las diferentes pantallas del menu
-	/*$('.inicio').click(function(){
-		window.location.href = "http://www.acurstinsoft.esy.es";
-	});
-	
-	$('.nosotros').click(function(){
-		window.location.href = "http://www.acurstinsoft.esy.es/nosotros";
-	});
-	
-	$('.servicios').click(function(){
-		window.location.href = "http://www.acurstinsoft.esy.es/servicios";
-	});
-	
-	$('.soporte').click(function(){
-		window.location.href = "http://www.acurstinsoft.esy.es/soporte";
-	});
-	
-	$('.contacto').click(function(){
-		window.location.href = "http://www.acurstinsoft.esy.es/contacto";
-	});*/
 $('.nosotros').click(function(){lightbox_open()});
 $('.soporte').click(function(){lightbox_open()});
 });
@@ -46,7 +26,7 @@ $('.soporte').click(function(){lightbox_open()});
 $(document).ready(function(){
   $(".login").click(function(event){
     event.preventDefault();
-    alert("Actualmente no disponible")
+    alert("Fuera de servicio")
   });
 });
 
@@ -94,19 +74,21 @@ else
 }
 }
 
-//Script para saber la hora
-function estadopant(){
-	fecha = new Date()
-	hora = fecha.getHours()
-	
-	if(hora >= 8 && hora <= 18){
-		document.write("<img src='img/on.png' alt='Disponible' title='Disponibilidad (8 am - 6 pm)'> "+" Disponible.")
-	}else{
-		document.write("<img src='img/off.png' alt='Fuera de servicio' title='Actualmente no se presta servicio, por favor dejenos su mensaje.'> "+" Fuera de servicio.")
-	}	
+
+function pie()
+{
+	var fecha = new Date()
+	var anno = fecha.getFullYear()
+	var dia =  fecha.getDay()
+	document.write("&copy Acurstin "+anno)
+
 }
 
-function pie(){
-	anno = fecha.getFullYear()
-	document.write("&copy; Acurstin Soft "+anno)	
-}
+
+
+
+
+
+
+
+

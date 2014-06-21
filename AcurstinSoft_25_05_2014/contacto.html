@@ -7,13 +7,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Acurstin Soft</title>
-	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/contacto.css" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<script src="../jquery/jquery.min.js"></script>  
-	<script src="../jquery/jquery-ui.min.js"></script>  
-	<script src="../js/animacion.js"></script> 
+	<script src="jquery/jquery.min.js"></script>  
+	<script src="jquery/jquery-ui.min.js"></script>  
+	<script src="js/main.js"></script> 
 </head>
 <body onload="redireccionar()">
 	<div class ="barrasuperior">
@@ -22,8 +22,7 @@
 			<form class="loginForm" action="restablecer.php" method="post">           
 				<input type="text" name="email" class="email" placeholder="Usuario"/>
 				<input type="password" name="password" class="password" placeholder="Contraseña"/>
-				<input type="submit" id="login" class="login" value="Entrar"/><br>
-				<a href="#">¿Olvido su contraseña?</a>
+				<input type="submit" id="login" class="login" value=">"/>
 			</form>
 		</div>  
 	</div>
@@ -78,22 +77,34 @@
 			</form>
 			</div>
 			<div class="redes">
-					<a href="https://www.facebook.com/AcurstinSoft" target="_blank" id="icono"><img src="img/facebook.png" alt="facebook"></a><br>
-					<a href="https://plus.google.com/116656404072387912726/posts" target="_blank" id="icono"><img src="img/googleplus.png"></a><br>
-					<a href="https://co.linkedin.com/" target="_blank"><img src="img/linkedin.png" id="icono"></a><br>
-					<a href="https://twitter.com/AcurstinSoft" target="_blank"><img src="img/twitter.png" title="@AcurstinSoft" id="icono"></a><br>
+					<a href="https://www.facebook.com/AcurstinSoft" target="_blank" id="icono"><img src="img/facebook.png" alt="facebook"></a>
+					<a href="https://plus.google.com/116656404072387912726/posts" target="_blank" id="icono"><img src="img/googleplus.png"></a>
+					<a href="https://co.linkedin.com/" target="_blank"><img src="img/linkedin.png" id="icono"></a>
+					<a href="https://twitter.com/AcurstinSoft" target="_blank"><img src="img/twitter.png" title="@AcurstinSoft" id="icono"></a>
 					<a href="skype:AcurstinSoft?chat"><img src="img/skype.png" title="ID : AcurstinSoft" id="icono"></a>
 			</div>
-			<div class="ctexto">
+			<div class="info1">
 				<p>
-					Contactanos en las redes sociales o dejanos un mensaje llenando el formulario para contactarte.<strong> Si nos envias un mensaje desde el formulario entre las 8 am y las 6 pm te responderemos al instante.</strong>
+					Correo : contacto@acurstin.com<br>
+					Horario de atenci&oacute;n : Lunes - Viernes (8 am - 6 pm)
+					<script>estado()</script>
 				</p>
 			</div>
-		
+
+			<div class="info2">
+				<p>
+					Este formulario es unicamente para contactar nuestros servicios, si desea obtener mas informacion por favor utilice una de las redes sociales para hablar con nosotros.
+				</p>
+			</div>
+
 		</div>
 	</section>
 	<div class="pie">
-			<p>&copy; Acurstin - 2014</p>          								
+		<p>
+	<script>
+		pie()
+	</script>
+	</p>         								
 	</div>
 </div>
 </body> 
