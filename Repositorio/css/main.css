@@ -135,6 +135,7 @@ header
 {	
 	width: 20px;
 	border: none;
+	background-color:#63d6dd;
 }
 
 .Login_mostrar
@@ -175,6 +176,7 @@ header
 	top: 20px;
 	width: 180px;
 }
+
 nav
 { 
 	background: rgba(57,14,87,0.9);
@@ -213,4 +215,16 @@ nav
 	background: url(../img/soporte.png);
 	background-size: 100%;
 }
+
+.volver 
+{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/back.png);
+	position: absolute;
+	right: 40px;
+	bottom: 30px;
+	cursor: pointer;
+}
+
 
