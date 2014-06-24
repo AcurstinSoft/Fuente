@@ -11,9 +11,14 @@
 	<link rel="stylesheet" href="css/inicio.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<<<<<<< HEAD:AcurstinSoft_25_05_2014/index.html
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
+=======
+	<script src="jquery/jquery.min.js"></script>  
+	<script src="jquery/jquery-ui.min.js"></script>  
+>>>>>>> origin/master:Repositorio/index.html
 	<script src="js/main.js"></script> 
 </head>
 <body onload="redireccionar()">
@@ -21,10 +26,9 @@
 		<a  id="loginButton" class="loginButton">Entrar</a>
 		<div id="Login_mostrar" class ="Login_mostrar"> 
 			<form class="loginForm" action="restablecer.php" method="post">           
-				<input type="text" name="email" class="email" placeholder="Usuario" />
-				<input type="password" name="password" class="password" placeholder="Contraseña" />
-				<input type="submit" id="login" class="login" value="Entrar" />
-				<a href="#">¿Olvido su contraseña?</a>
+				<input type="text" name="email" class="email" placeholder="Usuario"/>
+				<input type="password" name="password" class="password" placeholder="Contraseña"/>
+				<input type="submit" id="login" class="login" value=">" />
 			</form>
 		</div>  
 	</div>
@@ -118,13 +122,11 @@
 			</div>
 		</div>
 	</section>
-	<div class="pie">
-		<footer>
-			<script>
-			pie()
-			</script>                								
-		</footer>
-	</div>
+	
 </div>
+		<div class="pie">
+			<p>	<script>pie()</script></p>
+			<div class="volver" onclick="subir();return false"></div>
+		</div>
 </body> 
 </html> 

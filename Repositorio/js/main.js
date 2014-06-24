@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#loginButton').click(function(){
-   	 $('#Login_mostrar').slideToggle('slow');
+   	 $('#Login_mostrar').slideToggle('fast');
 	});
 	
 	$('#Login_mostrar').mouseleave(function(){
@@ -26,7 +26,7 @@ $('.soporte').click(function(){lightbox_open()});
 $(document).ready(function(){
   $(".login").click(function(event){
     event.preventDefault();
-    alert("Actualmente no disponible")
+    alert("Fuera de servicio")
   });
 });
 
@@ -74,7 +74,33 @@ else
 }
 }
 
+<<<<<<< HEAD:AcurstinSoft_25_05_2014/js/main.js
 function pie(){
 	anno = fecha.getFullYear()
 	document.write("&copy; Acurstin Soft "+anno)	
+=======
+
+function pie()
+{
+	var fecha = new Date()
+	var anno = fecha.getFullYear()
+	var dia =  fecha.getDay()
+	document.write("&copy Acurstin "+anno)
+
 }
+
+function subir() {
+if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
+window.scrollBy(0, -15);
+arriba = setTimeout('subir()', 10);
+}
+else clearTimeout(arriba);
+>>>>>>> origin/master:Repositorio/js/main.js
+}
+
+
+
+
+
+
+

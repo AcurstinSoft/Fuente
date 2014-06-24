@@ -10,11 +10,10 @@
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/portafolio.css" />
-
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<script src="jquery/jquery.min.js"></script>  
 	<script src="jquery/jquery-ui.min.js"></script>  
-	<script src="js/animacion.js"></script> 
+	<script src="js/main.js"></script> 
 </head>
 <body onload="redireccionar()">
 	<div class ="barrasuperior">
@@ -23,8 +22,7 @@
 			<form class="loginForm" action="restablecer.php" method="post">           
 				<input type="text" name="email" class="email" placeholder="Usuario" />
 				<input type="password" name="password" class="password" placeholder="Contraseña" />
-				<input type="submit" id="login" class="login" value="Entrar" />
-				<a href="#">¿Olvido su contraseña?</a>
+				<input type="submit" id="login" class="login" value=">"/>
 			</form>
 		</div>  
 	</div>
@@ -80,13 +78,10 @@
             </div>
         </div>
 	</section>
-	<div class="pie">
-		<footer>
-			<script>
-			pie()
-			</script>                								
-		</footer>
-	</div>
 </div>
+		<div class="pie">
+			<p>	<script>pie()</script></p>
+			<div class="volver" onclick="subir();return false"></div>
+		</div>
 </body> 
 </html> 
