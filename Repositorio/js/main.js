@@ -74,19 +74,11 @@ else
 }
 }
 
-<<<<<<< HEAD:AcurstinSoft_25_05_2014/js/main.js
-function pie(){
-	anno = fecha.getFullYear()
-	document.write("&copy; Acurstin Soft "+anno)	
-=======
-
 function pie()
 {
 	var fecha = new Date()
 	var anno = fecha.getFullYear()
-	var dia =  fecha.getDay()
 	document.write("&copy Acurstin "+anno)
-
 }
 
 function subir() {
@@ -95,7 +87,6 @@ window.scrollBy(0, -15);
 arriba = setTimeout('subir()', 10);
 }
 else clearTimeout(arriba);
->>>>>>> origin/master:Repositorio/js/main.js
 }
 
 
