@@ -125,7 +125,6 @@ header
 	border-radius: 10px;
 	border: 1px solid #FF0;
 }
-
 #light p
 {
 	color: #FF0;
@@ -175,6 +174,36 @@ header
 	position: relative;
 	top: 20px;
 	width: 180px;
+	
+}
+@-webkit-keyframes rotater {
+    0% { -webkit-transform:rotate(0) scale(1) }
+	50% { -webkit-transform:rotate(360deg) scale(2) }
+	100% { -webkit-transform:rotate(360deg) scale(1) }
+}
+.logo .imagen:hover{
+	opacity: 1;
+	 /* safari / chrome */
+    -webkit-animation-name:rotater; 
+    -webkit-animation-duration:1s; 
+    -webkit-animation-iteration-count:1; 
+    -webkit-animation-timing-function: ease-out;
+    
+    /* mozilla */
+    -moz-transform:rotate(360deg) scale(2);
+    -moz-transition-duration:1s;
+    -moz-transition-timing-function: ease-out;
+    
+    /* opera */
+    -o-transform:rotate(360deg) scale(2);
+    -o-transition-duration:1s;
+    -p-transition-timing-function: ease-out;
+    
+    /* ie */
+    -ms-transform:rotate(360deg) scale(2);
+    -ms-transform-duration:1s;
+    -ms-transform-timing-function: ease-out;
+	z-index: 1000;
 }
 
 nav
