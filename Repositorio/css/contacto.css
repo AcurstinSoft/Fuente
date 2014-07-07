@@ -11,6 +11,7 @@
 .info1 p
 {
 	margin:0;
+	margin-left:0px;
 }
 
 .info2
@@ -42,13 +43,11 @@
 	text-align: left;
 }
 
-.formulario input[type=submit], input[type=reset]
+.formulario input[type=image], input[type=reset]
 {
-	background: #A3D0FF;
 	border: none;
-	display: block;
 	position: relative;
-	left: 250px;
+	left:340px;
 }
 
 h2

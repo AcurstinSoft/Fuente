@@ -158,7 +158,7 @@ function pie()
 {
 	var fecha = new Date()
 	var anno = fecha.getFullYear()
-	document.write("&copy Acurstin "+anno)
+	document.write("<a href='http://www.safecreative.org/work/1404100557232-plantilla-logo-acurstin-soft' target='_blank'>&copy</a> Acurstin "+anno)
 }
 
 function subir() {
