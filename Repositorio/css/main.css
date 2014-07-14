@@ -32,6 +32,14 @@ body
 {
 	background-color: #1E5A69;
 	font-size: 16px;
+	height: 100%;
+}
+
+button 
+{	
+	border-radius: 2px;
+	position: absolute;
+	margin-left: 267px;
 }
 .contacto
 {
@@ -86,7 +94,7 @@ h1
 }
 header
 {
-	background-color: #0766B5;
+	background-color: #0971B2;
 	border: solid #000;
 	border-radius: 50px;
 	box-shadow: #000 0 0 30px;
@@ -99,14 +107,10 @@ header
 	z-index: 3;
 }
 
-.host
+html
 {
-	position: absolute;
-	left: 0px; 
-	bottom: 0;
-	opacity: 0.5;
+	height: 100%;
 }
-
 .inicio
 {
 	background: url(../img/inicio.png);
@@ -245,8 +249,9 @@ nav
 
 .pie small
 {
+	opacity: 0.5;
 	position: absolute;
-	left: 40%;
+	left: 50px;
 	margin-top:15px;
 	color: #FFF;
 }

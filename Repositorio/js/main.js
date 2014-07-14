@@ -154,12 +154,6 @@ else
 }
 }
 
-function pie()
-{
-	var fecha = new Date()
-	var anno = fecha.getFullYear()
-	document.write("<a href='http://www.safecreative.org/work/1404100557232-plantilla-logo-acurstin-soft' target='_blank'>&copy</a> Acurstin "+anno)
-}
 
 function subir() {
 if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {

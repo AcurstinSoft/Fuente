@@ -22,7 +22,7 @@
 			<form class="loginForm" action="restablecer.php" method="post">           
 				<input type="text" name="email" class="email" placeholder="Usuario"/>
 				<input type="password" name="password" class="password" placeholder="Contraseña"/>
-				<input type="submit" id="login" class="login" value=">"/>
+				<button type="submit" name="enviar"><img src="img/enter.png" title="Enviar" class="login"/></button>
 			</form>
 		</div>  
 	</div>
@@ -69,7 +69,8 @@
 					</tr>
 
 					<tr>
-						<td><input type="image" src="img/enter.png" title="Enviar"></td>
+						<td><button type="submit" name="enviar"><img src="img/enter.png" title="Enviar"/></button></td>
+						<td><button type="reset" name="borrar" ><img src="img/reset.png" alt="borrar" /></button><td>
 					</tr>
 
 				</table>
@@ -99,7 +100,7 @@
 		</div>
 	</section>
 		<div class="pie">
-			<small><script>pie()</script> - Hosted by <a href="http://api.hostinger.es/redir/2369630" target="_blank">Hostinger</a></small>
+			<small>&copy Copyright Acurstin</small>
 			<div class="volver" onclick="subir();return false"> </div>
 		</div>
 </div>
