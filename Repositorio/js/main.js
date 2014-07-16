@@ -3,8 +3,9 @@ $(document).ready(function() {
    	 $('#Login_mostrar').slideToggle('fast');
 	});
 
-	$('#Login_mostrar').mouseleave(function(){
-	 $(this).fadeOut();
+	$('#bfr1').click(function(){
+	 $('#Login_mostrar').fadeOut();
+
 	});
 
 	$('#fade').click(function(){lightbox_close();});
@@ -163,7 +164,9 @@ else clearTimeout(arriba);
 }
 
 
-
+function ocultar(){
+	document.getElementById("loginButton").style.display = "none";
+}
 
 
 

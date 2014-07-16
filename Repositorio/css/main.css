@@ -30,18 +30,26 @@ a:hover
 
 body
 {
-	background-color: #1E5A69;
+	background-color: #403E3C ;
 	font-size: 16px;
 	height: 100%;
 	overflow:hidden;
 }
 
-button 
-{	
-	border-radius: 2px;
-	position: absolute;
-	margin-left: 267px;
+#bclose
+{
+	background: none;
+	border: none;
+	position: relative;
+	top: 10px;
 }
+
+#bfr1
+{
+	position: relative;
+	top: 10px;
+}
+
 .contacto
 {
 	background: url(../img/contacto.png);
@@ -84,9 +92,26 @@ button
 
 footer
 {
-	color: #000;
-	margin: auto;
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	margin-left:-8px;
+	margin-top:50px;
+	margin-bottom: 0;
+	height: 50px;
+	text-align: center;
+	clear: both;
 }
+
+footer small
+{
+	opacity: 0.5;
+	position: absolute;
+	left: 50px;
+	margin-top:15px;
+	color: #FFF;
+}
+
 h1
 {
 	color: #FFF;
@@ -108,10 +133,6 @@ header
 	z-index: 3;
 }
 
-html
-{
-	height: 100%;
-}
 .inicio
 {
 	background: url(../img/inicio.png);
@@ -144,25 +165,20 @@ html
 	color: #FF0;
 }
 
-.login
-{	
-	width: 20px;
-	border: none;
-	background-color:#00B233;
-}
 
 .Login_mostrar
 {
 	display: none;
 	position: absolute;
-	right: 80px;
-	top: 12px;
+	right: 20px;
+	top: -5px;
 }
+
 .loginButton
 {
 	position: absolute;
 	right: 20px;
-	top: 15px;
+	top: 7px;
 }
 
 .logo
@@ -234,27 +250,6 @@ nav
 {
 	background: url(../img/nosotros.png);
 	background-size: 100%;
-}
-
-
-.pie
-{
-	width: 100%;
-	background-color: #000;
-	position: absolute;
-	margin-left:-8px;
-	margin-top:50px;
-	height: 50px;
-	text-align: center;
-}
-
-.pie small
-{
-	opacity: 0.5;
-	position: absolute;
-	left: 50px;
-	margin-top:15px;
-	color: #FFF;
 }
 
 .servicios

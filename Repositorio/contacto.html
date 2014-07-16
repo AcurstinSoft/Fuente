@@ -17,14 +17,16 @@
 </head>
 <body onload="redireccionar()">
 	<div class ="barrasuperior">
-		<a  id="loginButton" class="loginButton">Entrar</a>
+		<a  id="loginButton" class="loginButton" onClick="ocultar()"><img src="img/lock.png"></a>
 		<div id="Login_mostrar" class ="Login_mostrar"> 
-			<form class="loginForm" action="restablecer.php" method="post">           
+			<form class="loginForm"  method="post">           
 				<input type="text" name="email" class="email" placeholder="Usuario"/>
 				<input type="password" name="password" class="password" placeholder="Contraseña"/>
-				<button type="submit" name="enviar"><img src="img/enter.png" title="Enviar" class="login"/></button>
+				<input type="image" src="img/login.png" onClick="alert('Fuera de servicio')" id="bfr1">
+				<a href="" id="bclose"><img src="img/close.png"></a>
 			</form>
 		</div>  
+	</div> 
 	</div>
 	<div class="contenedor_principal">
 		<header> 
@@ -70,7 +72,7 @@
 
 					<tr>
 						<td><button type="submit" name="enviar"><img src="img/enter.png" title="Enviar"/></button></td>
-						<td><button type="reset" name="borrar" ><img src="img/reset.png" alt="borrar" /></button><td>
+						<td><button type="reset" name="borrar" ><img src="img/reset.png" title="Limpiar" /></button><td>
 					</tr>
 
 				</table>
@@ -99,10 +101,10 @@
 
 		</div>
 	</section>
-		<div class="pie">
+		<footer>
 			<small>&copy Copyright Acurstin</small>
 			<div class="volver" onclick="subir();return false"> </div>
-		</div>
+		</foooter>
 </div>
 </body> 
 </html> 

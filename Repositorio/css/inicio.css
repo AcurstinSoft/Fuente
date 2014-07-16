@@ -12,13 +12,14 @@
 .container{
 
 }
+
 .lado{
 	background: #FFC147;
 	width: 260px;
 	height: 300px;
-	position: absolute;
-	top: 200px;
-	right:180px;
+	position: relative;
+	left: 620px;
+	bottom: 385px; 
 }
 p{
 	margin: 0;

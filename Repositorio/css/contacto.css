@@ -1,10 +1,18 @@
+button
+{
+	background: none;
+	border: none;
+	position: absolute;
+	margin-left: 280px;
+}
+
 .info1
 {	
 	color: #CCC;
 	position: relative;
 	width: 380px;
-	left: 460px;
-	bottom: 100px;
+	left: 500px;
+	bottom: 80px;
 	
 }
 

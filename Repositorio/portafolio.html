@@ -17,14 +17,16 @@
 </head>
 <body onload="redireccionar()">
 	<div class ="barrasuperior">
-		<a  id="loginButton" class="loginButton">Entrar</a>
+		<a  id="loginButton" class="loginButton" onClick="ocultar()"><img src="img/lock.png"></a>
 		<div id="Login_mostrar" class ="Login_mostrar"> 
-			<form class="loginForm" action="restablecer.php" method="post">           
-				<input type="text" name="email" class="email" placeholder="Usuario" />
-				<input type="password" name="password" class="password" placeholder="Contraseña" />
-				<input type="submit" id="login" class="login" value=">"/>
+			<form class="loginForm"  method="post">           
+				<input type="text" name="email" class="email" placeholder="Usuario"/>
+				<input type="password" name="password" class="password" placeholder="Contraseña"/>
+				<input type="image" src="img/login.png" onClick="alert('Fuera de servicio')" id="bfr1">
+				<a href="" id="bclose"><img src="img/close.png"></a>
 			</form>
 		</div>  
+	</div> 
 	</div>
 	<div class="contenedor_principal">
 		<header> 
@@ -79,9 +81,9 @@
         </div>
 	</section>
 </div>
-		<div class="pie">
+		<footer>
 			<small>&copy Copyright Acurstin</small>
 			<div class="volver" onclick="subir();return false"> </div>
-		</div>
+		</foooter>
 </body> 
 </html> 
