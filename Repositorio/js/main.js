@@ -52,7 +52,6 @@ function captura_click(e) {
 	console.log("Contenido sobre lo que ha hecho click: "+clickedElement.innerHTML);	
 }*/
 
-
 $(document).ready(function(){
   $(".login").click(function(event){
     event.preventDefault();
@@ -93,21 +92,21 @@ function lightbox_close3(){
 //item4
 function lightbox_open4(event){
     window.scrollTo(0,0);
-    $('#light3').css("display","block");
+    $('#light4').css("display","block");
     $('#fade').css("display","block");
 };
 function lightbox_close4(){
-  	$('#light3').css("display","none");
+  	$('#light4').css("display","none");
     $('#fade').css("display","none");
 };
 //item5
 function lightbox_open5(event){
     window.scrollTo(0,0);
-    $('#light3').css("display","block");
+    $('#light5').css("display","block");
     $('#fade').css("display","block");
 };
 function lightbox_close5(){
-  	$('#light3').css("display","none");
+  	$('#light5').css("display","none");
     $('#fade').css("display","none");
 };
 

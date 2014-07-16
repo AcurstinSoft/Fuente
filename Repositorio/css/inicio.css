@@ -139,9 +139,10 @@ h3:before{font-family: "iconitos";
 }
 
 .principal{
-	background: #333;
+	
 	color: #fff;
 	margin:0px 300px 0px 50px;
+	border-radius: 10px;
 
 }
 

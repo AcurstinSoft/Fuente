@@ -33,6 +33,7 @@ body
 	background-color: #1E5A69;
 	font-size: 16px;
 	height: 100%;
+	overflow:hidden;
 }
 
 button 
@@ -191,7 +192,7 @@ html
 }
 @-webkit-keyframes rotater {
     0% { -webkit-transform:rotate(0) scale(1) }
-	50% { -webkit-transform:rotate(360deg) scale(2) }
+	50% { -webkit-transform:rotate(360deg) scale(1) }
 	100% { -webkit-transform:rotate(360deg) scale(1) }
 }
 .logo .imagen:hover{
@@ -241,8 +242,8 @@ nav
 	width: 100%;
 	background-color: #000;
 	position: absolute;
-	margin-left: -8px;
-	margin-top: 100px;
+	margin-left:-8px;
+	bottom: 0;
 	height: 50px;
 	text-align: center;
 }
