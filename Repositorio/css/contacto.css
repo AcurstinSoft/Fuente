@@ -90,6 +90,38 @@ h2
 	left:510px;
 	bottom:-50px;
 }
+.redes img{
+opacity: 0.6;
+}
+@-webkit-keyframes rotater1 {
+    0% { -webkit-transform:rotate(0) scale(1) }
+	50% { -webkit-transform:rotate(360deg) scale(1) }
+	100% { -webkit-transform:rotate(360deg) scale(1) }
+}
+.redes img:hover{
+	opacity: 1;
+	 /* safari / chrome */
+    -webkit-animation-name:rotater1; 
+    -webkit-animation-duration:1.5s; 
+    -webkit-animation-iteration-count:1; 
+    -webkit-animation-timing-function: ease-out;
+    
+    /* mozilla */
+    -moz-transform:rotate(360deg) scale(2);
+    -moz-transition-duration:1.5s;
+    -moz-transition-timing-function: ease-out;
+    
+    /* opera */
+    -o-transform:rotate(360deg) scale(2);
+    -o-transition-duration:1.5s;
+    -p-transition-timing-function: ease-out;
+    
+    /* ie */
+    -ms-transform:rotate(360deg) scale(2);
+    -ms-transform-duration:1.5s;
+    -ms-transform-timing-function: ease-out;
+	z-index: 1000;
+}
 
 textarea
 {

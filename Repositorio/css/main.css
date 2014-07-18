@@ -1,4 +1,26 @@
 @charset "utf-8";
+
+@font-face {
+	font-family: 'botoncitos';
+	src:url('../fonts/botones/icomoon.eot?nwmkrn');
+	src:url('../fonts/botones/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/botones/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/botones/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/botones/icomoon.svg?nwmkrn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'botoncitos2';
+	src:url('../fonts/botones2/icomoon.eot?nwmkrn');
+	src:url('../fonts/botones2/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/botones2/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/botones2/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/botones2/icomoon.svg?nwmkrn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 *
 {
 	font-family: 'Roboto',sans-serif;
@@ -30,26 +52,63 @@ a:hover
 
 body
 {
-	background-color: #403E3C ;
+	background-color: #1E5A69 ;
 	font-size: 16px;
 	height: 100%;
 	overflow:hidden;
 }
+.boton1{
+}
+.boton1:before{
+	font-family: "botoncitos2";
+	content: "\e601";
+}
+.boton1:after{
+	
+	font-family: "botoncitos";
+	content: "\e601";
+}
+.boton2{
+	color: #fff;
+	font-size: 20px;
+}
+.boton2:before{
+	font-family: "botoncitos";
+	content: "\e600";
+}
+.boton3{
+	font-size: 20px;
 
-#bclose
-{
-	background: none;
-	border: none;
-	position: relative;
-	top: 10px;
+}
+.boton3:before{
+	font-family: "botoncitos";
+	content: "\e604";
+}
+.boton4{
+	color: #fff;
+	font-size: 30px;
+}
+.boton4:before{
+	font-family: "botoncitos";
+	content: "\e603";
+}
+.boton4:hover{
+	cursor: pointer;
+	color: green;
 }
 
-#bfr1
-{
-	position: relative;
-	top: 10px;
+.boton5{
+	color: #fff;
+	font-size: 30px;
 }
-
+.boton5:before{
+	font-family: "botoncitos";
+	content: "\e602";
+}
+.boton5:hover{
+	cursor: pointer;
+	color: red;
+}
 .contacto
 {
 	background: url(../img/contacto.png);
@@ -170,15 +229,16 @@ header
 {
 	display: none;
 	position: absolute;
-	right: 20px;
-	top: -5px;
+	right: 30px;
+	top: 10px;
 }
 
 .loginButton
 {
 	position: absolute;
 	right: 20px;
-	top: 7px;
+	top: 10px;
+	font-size: 20px;
 }
 
 .logo

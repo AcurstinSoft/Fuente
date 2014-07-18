@@ -29,7 +29,9 @@ hr
 .titulo
 {
 	color:#fff;
-	margin: 0px 0px 10px 0px;
+	margin: 0px 40px 10px 40px;
+   padding: 10px;
+   border-bottom: 3px #fff solid;
 }
 
 .view-first img
