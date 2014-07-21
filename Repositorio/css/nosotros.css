@@ -1,0 +1,65 @@
+.contenido{
+	margin: 0px 10px 0px 50px
+}
+h2{
+	padding: 0;
+	margin: 0;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+.principal{
+	margin: 0px 340px 0px 0px;
+	padding: 10px 0px 0px 0px;
+}
+.lado{
+	background: #FFC147;
+	width: 450px;
+	position: relative;
+	left: 380px;
+	bottom: 412px; 
+}
+.texto{
+	color: #fff;
+	border: solid 2px #999;
+	text-align: justify;
+	margin: 10px 10px 10px 10px;
+}
+.titulo{
+	color: #fff;
+	padding: 10px;
+	border-bottom: 3px #fff solid;
+	text-align: center;
+}
+.titulo2{
+	color: #fff;
+	padding: 4px;
+	border-bottom: 3px #fff solid;
+	text-align: center;
+}
+.empresa{
+	border: solid 2px #fff;
+	margin-bottom: 10px;
+	
+}
+.mision{
+	border: solid 2px #fff;
+	margin: 0px 135px 8px 0px;
+	padding: 0px 0px 50px 0px;
+	background: #0CE87B;
+}
+.vision{
+	border: solid 2px #fff;
+	margin: 0px 20px 0px 0px;
+	background: #0CE87B;
+}
+.otro{
+	border: solid 2px #fff;
+	width: 330px;
+	height: 162px; 
+	position: relative;
+	left: 495px;
+	bottom: 415px; 
+	background: #FFC147;
+}
