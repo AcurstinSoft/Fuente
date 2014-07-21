@@ -60,6 +60,6 @@ p{
 	height: 162px; 
 	position: relative;
 	left: 495px;
-	bottom: 415px; 
+	margin-top:-415px;
 	background: #FFC147;
 }
