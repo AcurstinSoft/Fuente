@@ -42,41 +42,49 @@
 			<a href="nosotros.html"><div class="nosotros" title="Nosotros"></div>
 			<a href="portafolio.html"><div class="servicios" title="Servicios"></div></a>
 			<a href="soporte.html" title="Soporte"><div class="soporte"></div>
-			<a href="contacto.html"><div class="contacto" title="Contacto"></div></a>
+			<a href="contacto.php"><div class="contacto" title="Contacto"></div></a>
 		</nav>
 	<section class="container">	
 		<h2>Contactenos</h2>
 		<div class="formulario">
-			<form action="contacto.php" method="post" id="usrform"> 
-				<table>
-				
-					<tr>
-						<td><label>Nombre</label></td>
-						<td><input type="text" name="nombre"></td>
-					</tr>
+			<?php
+if (!isset($_POST["submit"])) {
+  ?>
+  <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+  	<table>
+  		<tr>
+  			<td>Correo</td>
+  			<td><input type="text" name="from" placeholder="nombre@ejemplo.com"></td>
+  		</tr>
 
-					<tr>
-						<td><label>e-mail</label></td>
-						<td><input type="email" name="correo"></td>
-					</tr>
+  		<tr>
+  			<td>Asunto</td>
+  			<td><input type="text" name="subject" placeholder="Asunto"></td>
+  		</tr>
 
-					<tr>
-						<td><label>Asunto</label></td>
-						<td><input type="text" name="asunto"></td>
-					</tr>
+  		<tr>
+  			<td>Mensaje</td>
+  			<td><textarea rows="10" cols="40" name="message" placeholder="En que te podemos ayudar?"></textarea></td>
+  		</tr>
 
-					<tr>
-						<td><label>Mensaje</label></td>
-						<td><textarea rows="5" cols="20" name="mensaje" form="usrform" id="area"></textarea></td>
-					</tr>
-
-					<tr>
-						<td><button type="submit" name="enviar"><span class="boton4"></span></button></td>
-						<td><button type="reset" name="borrar" ><span class="boton5"></span></button><td>
-					</tr>
-
-				</table>
-			</form>
+  		<tr>
+  			<td><button type="submit" name="submit" value="Enviar"><span class="boton4"></span></button></td>
+  			<td><button type="reset" name="borrar" ><span class="boton5"></span></button><td>
+  		</tr>
+    </table>
+  </form>
+  <?php 
+} else {   
+  if (isset($_POST["from"])) {
+    $from = $_POST["from"]; // sender
+    $subject = $_POST["subject"];
+    $message = $_POST["message"];
+    $message = wordwrap($message, 70);
+    mail("acurstin@gmail.com",$subject,$message,"From: $from\n");
+    echo "El mensaje ha sido enviado, estaremos comunicandonos con usted muy pronto";
+  }
+}
+?>
 			</div>
 			<div class="redes">
 					<a href="https://www.facebook.com/AcurstinSoft" target="_blank" id="icono"><img src="img/facebook.png" alt="facebook"></a>
@@ -87,7 +95,7 @@
 			</div>
 			<div class="info1">
 				<p>
-					Correo : contacto@acurstinsoft.esy.es<br>
+					Correo : acurstin@gmail.com<br>
 					Horario de atenci&oacute;n : Lunes - Viernes (8 am - 6 pm)
 					<script>estado()</script>
 				</p>
@@ -107,4 +115,4 @@
 		</foooter>
 </div>
 </body> 
-</html> 
+</html>

@@ -44,6 +44,7 @@ button
 	width: 380px;
 	border-right:1px solid #FFF;
 	padding-right: 13px;
+	z-index: 1;
 }
 .formulario input[type=text], input[type=email] 
 {
