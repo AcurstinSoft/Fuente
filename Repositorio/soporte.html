@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="description" content="Soluciones integrales en software">
+	<meta name="keywords" content="acurstinsoft, acurstin, soft, software">
+	<meta name="author" content="Acurstin Soft">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Acurstin Soft</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/soporte.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
+	<script src="jquery/jquery.min.js"></script>  
+	<script src="jquery/jquery-ui.min.js"></script>  
+	<script src="js/main.js"></script> 
+</head>
+<body onload="redireccionar()">
+	<div class ="barrasuperior">
+		<a  id="loginButton" class="loginButton" onClick="ocultar()"><span class="boton1"></span></a>
+		<div id="Login_mostrar" class ="Login_mostrar"> 
+			<form class="loginForm"  method="post">           
+				<input type="text" name="email" class="email" placeholder="Usuario"/>
+				<input type="password" name="password" class="password" placeholder="Contraseña"/>&nbsp;&nbsp;&nbsp;
+				<a class="boton2">&nbsp;&nbsp;&nbsp;</a>
+				<a href="#" class="boton3"></a>
+			</form>
+		</div>  
+	</div> 
+	</div>
+	<div class="contenedor_principal">
+		<header> 
+			<div class="logo">
+				<div class="imagen">                     
+					<!--https://www.safecreative.org/work/1403200394525-logo-acurstin-soft-->
+				</div>
+			</div>
+			<h1>Acurstin Soft</h1>
+		</header>
+		<nav>
+			<a href="index.html"><div class="inicio" title="Inicio"></div></a>
+			<a href="nosotros.html"><div class="nosotros" title="Nosotros"></div>
+			<a href="portafolio.html"><div class="servicios" title="Servicios"></div></a>
+			<a href="soporte.html" title="Soporte"><div class="soporte"></div>
+			<a href="contacto.html"><div class="contacto" title="Contacto"></div></a>
+		</nav>
+		<section class="container">	
+			<div class="dsoporte">
+			<form action="soporte.php" method="post">
+				<table width="400" border="0">
+    				<tr>
+    					<td></td>
+    					<td>
+					        <select>
+					            <option>Tipo de soporte</option>
+					            <option>Aplicativo de escritorio</option>
+					            <option>Aplicativo movil</option>
+					            <option>Aplicativo web</option>
+					            <option>Otro</option>
+					        </select>
+     					</td>
+    				</tr>
+
+ 					 <tr>
+    					<td>Nombre</td>
+    					<td><input name="nombre" type="text" placeholder="Nombre" value="" /></td>
+ 					</tr>
+  					
+  					<tr>
+    					<td>Apellido</td>
+    					<td><input name="apellido" type="text" placeholder="Apellidos"></td>
+ 	 				</tr>
+
+  					<tr>
+    					<td>Nombre de usuario</td>
+    					<td><input name="usuario" type="text" placeholder="Nombre de usuario"></td>
+  					</tr>
+
+  					<tr>
+    					<td>Correo</td>
+    					<td><input type="email" name="correo" placeholder="Email"></td>
+  					</tr>
+
+  					<tr>
+					    <td>URL del sitio</td>
+						<td><input type="text" name="sitio" placeholder="Ejemplo: www.acurstin.com"></td>
+  					</tr>
+
+  					<tr>
+    					<td>Reporte</td>
+    					<td><textarea name="problema" cols="30" rows="5" placeholder="Especifique aquí el error."></textarea></td>
+    				</tr>
+  
+  					<tr>
+    					<td>Id de Pedido</td>
+    					<td><input name="idsoporte" type="text" disabled="disabled" id="id" placeholder="00001"></td>
+  					</tr>
+  
+  					<tr>
+    					<td>&nbsp;</td>
+    					<td><input type="submit" name="enviar" value="Enviar reporte"> <input type="reset" name="restablecer" value="Restablecer"></td>
+  					</tr>
+  
+  				</table>
+
+			</form>
+		</div>
+		</section>
+	</div>
+		<footer>
+			<small>&copy Copyright Acurstin</small>
+			<div class="volver" onclick="subir();return false"> </div>
+		</foooter>
+</body> 
+</html> 

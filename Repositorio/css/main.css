@@ -52,10 +52,10 @@ a:hover
 
 body
 {
-	background-color: #1E5A69 ;
+	background-image:url(../img/bgd.jpg);
 	font-size: 16px;
-	height: 100%;
 	overflow:hidden;
+	background-size: 100%;
 }
 .boton1{
 }

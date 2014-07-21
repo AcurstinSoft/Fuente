@@ -20,10 +20,10 @@ $(document).ready(function() {
 	$('#fade').click(function(){lightbox_close4();});
 	$('#light5').click(function(){lightbox_close5();});
 	$('#fade').click(function(){lightbox_close5();});
-
+/*
 	$('.nosotros').click(function(){lightbox_open()});
 	$('.soporte').click(function(){lightbox_open()});
-
+*/
 	$('.item1').click(function(event){lightbox_open1(event)});
 	$('.item2').click(function(event){lightbox_open2(event)});
 	$('.item3').click(function(event){lightbox_open3(event)});
