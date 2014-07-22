@@ -3,10 +3,16 @@ $(document).ready(function() {
    	 $('#Login_mostrar').slideToggle('fast');
 	});
 
-	$('#bfr1').click(function(){
+	$('.boton3').click(function(){
 	 $('#Login_mostrar').fadeOut();
+	 $('#loginButton').slideToggle();
+	 $(".loginForm").resetear();
 
 	});
+jQuery.fn.resetear = function () {
+  $(this).each (function() { this.reset(); });
+}
+
 
 	$('#fade').click(function(){lightbox_close();});
 	$('#light').click(function(){lightbox_close();});
@@ -20,10 +26,7 @@ $(document).ready(function() {
 	$('#fade').click(function(){lightbox_close4();});
 	$('#light5').click(function(){lightbox_close5();});
 	$('#fade').click(function(){lightbox_close5();});
-/*
-	$('.nosotros').click(function(){lightbox_open()});
-	$('.soporte').click(function(){lightbox_open()});
-*/
+	
 	$('.item1').click(function(event){lightbox_open1(event)});
 	$('.item2').click(function(event){lightbox_open2(event)});
 	$('.item3').click(function(event){lightbox_open3(event)});
@@ -54,9 +57,13 @@ function captura_click(e) {
 }*/
 
 $(document).ready(function(){
-  $(".login").click(function(event){
+  $(".boton2").click(function(event){
     event.preventDefault();
     alert("Fuera de servicio")
+  });
+  $(".soporte").click(function(event){
+    event.preventDefault();
+    alert("debes estar registrado para acceder")
   });
 });
 //item1

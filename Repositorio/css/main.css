@@ -2,21 +2,11 @@
 
 @font-face {
 	font-family: 'botoncitos';
-	src:url('../fonts/botones/icomoon.eot?nwmkrn');
-	src:url('../fonts/botones/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
-		url('../fonts/botones/icomoon.woff?nwmkrn') format('woff'),
-		url('../fonts/botones/icomoon.ttf?nwmkrn') format('truetype'),
-		url('../fonts/botones/icomoon.svg?nwmkrn#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'botoncitos2';
-	src:url('../fonts/botones2/icomoon.eot?nwmkrn');
-	src:url('../fonts/botones2/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
-		url('../fonts/botones2/icomoon.woff?nwmkrn') format('woff'),
-		url('../fonts/botones2/icomoon.ttf?nwmkrn') format('truetype'),
-		url('../fonts/botones2/icomoon.svg?nwmkrn#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?nwmkrn');
+	src:url('../fonts/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/icomoon.svg?nwmkrn#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -60,13 +50,13 @@ body
 .boton1{
 }
 .boton1:before{
-	font-family: "botoncitos2";
+	font-family: "botoncitos";
 	content: "\e601";
 }
 .boton1:after{
 	
 	font-family: "botoncitos";
-	content: "\e601";
+	content: "\e605";
 }
 .boton2{
 	color: #fff;

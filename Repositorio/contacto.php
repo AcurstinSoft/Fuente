@@ -94,13 +94,11 @@ if (!isset($_POST["submit"])) {
 					<a href="skype:AcurstinSoft?chat"><img src="img/skype.png" title="ID : AcurstinSoft" id="icono"></a>
 			</div>
 			<div class="info1">
-				<p>
-					Correo : acurstin@gmail.com<br>
-					Horario de atenci&oacute;n : Lunes - Viernes (8 am - 6 pm)
+				<p class="item1">&nbsp;&nbsp;acurstin@gmail.com</p><br>
+				<p class="item2">&nbsp;Horario de atenci&oacute;n : Lunes - Viernes (8 am - 6 pm)
 					<script>estado()</script>
 				</p>
 			</div>
-
 			<div class="info2">
 				<p>
 					Este formulario es unicamente para contactar nuestros servicios, si desea obtener mas informacion por favor utilice una de las redes sociales para hablar con nosotros.

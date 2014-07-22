@@ -1,3 +1,26 @@
+@font-face {
+	font-family: 'botoncitos';
+	src:url('../fonts/icomoon.eot?nwmkrn');
+	src:url('../fonts/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/icomoon.svg?nwmkrn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.item1:before{
+	font-family: "botoncitos";
+	content: "\e615";
+}
+.item2:before{
+	font-family: "botoncitos";
+	content: "\e613";
+}
+.item3:before{
+	font-family: "botoncitos";
+	content: "\e614";
+}
+
 .contenido{
 	margin: 0px 10px 0px 50px
 }
@@ -18,18 +41,19 @@ p{
 	width: 450px;
 	position: relative;
 	left: 380px;
-	bottom: 412px; 
+	bottom: 418px; 
 }
 .texto{
 	color: #fff;
-	border: solid 2px #999;
 	text-align: justify;
-	margin: 10px 10px 10px 10px;
+	margin: 0px 20px 0px 20px;
+	padding: 10px;
 }
 .titulo{
 	color: #fff;
 	padding: 10px;
 	border-bottom: 3px #fff solid;
+	margin: 0px 10px 0px 10px;
 	text-align: center;
 }
 .titulo2{
@@ -37,29 +61,27 @@ p{
 	padding: 4px;
 	border-bottom: 3px #fff solid;
 	text-align: center;
+	margin: 0px 10px 0px 10px;
 }
 .empresa{
-	border: solid 2px #fff;
 	margin-bottom: 10px;
+	background: #e80c64;
 	
 }
 .mision{
-	border: solid 2px #fff;
 	margin: 0px 135px 8px 0px;
 	padding: 0px 0px 50px 0px;
-	background: #0CE87B;
+	background: #199383;
 }
 .vision{
-	border: solid 2px #fff;
 	margin: 0px 20px 0px 0px;
-	background: #0CE87B;
+	background: #323232;
 }
 .otro{
-	border: solid 2px #fff;
 	width: 330px;
 	height: 162px; 
 	position: relative;
-	left: 495px;
-	margin-top:-415px;
+	left: 500px;
+	margin-top:-420px;
 	background: #FFC147;
 }

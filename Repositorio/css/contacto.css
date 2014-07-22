@@ -1,3 +1,22 @@
+@font-face {
+	font-family: 'iconitos';
+	src:url('../fonts/icomoon.eot?nwmkrn');
+	src:url('../fonts/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/icomoon.svg?nwmkrn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.item1:before{
+	font-family: "iconitos";
+	content: "\e616";
+}
+
+.item2:before{
+	font-family: "iconitos";
+	content: "\e617";
+}
 button
 {
 	background: none;

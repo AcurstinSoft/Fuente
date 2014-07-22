@@ -107,27 +107,27 @@ h3{
 }
 .item1:before{
 	font-family: "iconitos";
-	content: "\e605";
+	content: "\e612";
 }
 .item2:before{
 	font-family: "iconitos";
-	content: "\e602";
+	content: "\e60e";
 }
 .item3:before{
 	font-family: "iconitos";
-	content: "\e603";
+	content: "\e60f";
 }
 .item4:before{
 	font-family: "iconitos";
-	content: "\e601";
+	content: "\e60b";
 }
 .item5:before{
 	font-family: "iconitos";
-	content: "\e604";
+	content: "\e611";
 }
 .item6:before{
 	font-family: "iconitos";
-	content: "\e600";
+	content: "\e608";
 }
 .plugin{
 	background: #8AFF92;
