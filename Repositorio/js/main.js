@@ -175,6 +175,9 @@ function ocultar(){
 	document.getElementById("loginButton").style.display = "none";
 }
 
+function aparecer (){
 
+	document.getElementById("vemergente").style.display = "block";  
+}
 
 
