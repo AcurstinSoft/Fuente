@@ -172,7 +172,7 @@ else clearTimeout(arriba);
 
 
 function ocultar(){
-	document.getElementById("loginButton").style.display = "none";
+	$('#loginButton').css("display","none");
 }
 
 function aparecer (){

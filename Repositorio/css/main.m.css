@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'botoncitos';
+	src:url('../fonts/icomoon.eot?nwmkrn');
+	src:url('../fonts/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/icomoon.svg?nwmkrn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*
+{
+	font-family: 'Roboto',sans-serif;
+	
+}
+a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #CCC;
+}
+.barrasuperior
+{
+	background-color: #000;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	margin-left:-8px;
+}
+
+.barrasuperior a:hover
+{
+	cursor: pointer;
+}
+
+body
+{
+	background:#1E5A69;
+	font-size: 16px;
+	overflow:hidden;
+}
+.boton1{
+}
+.boton1:before{
+	font-family: "botoncitos";
+	content: "\e601";
+}
+.boton1:after{
+	
+	font-family: "botoncitos";
+	content: "\e605";
+}
+.boton2{
+	color: #fff;
+	font-size: 20px;
+}
+.boton2:before{
+	font-family: "botoncitos";
+	content: "\e600";
+}
+.boton3{
+	font-size: 20px;
+
+}
+.boton3:before{
+	font-family: "botoncitos";
+	content: "\e604";
+}
+.boton4{
+	color: #fff;
+	font-size: 30px;
+}
+.boton4:before{
+	font-family: "botoncitos";
+	content: "\e603";
+}
+.boton4:hover{
+	cursor: pointer;
+	color: green;
+}
+
+.boton5{
+	color: #fff;
+	font-size: 30px;
+}
+.boton5:before{
+	font-family: "botoncitos";
+	content: "\e602";
+}
+.boton5:hover{
+	cursor: pointer;
+	color: red;
+}
+.contacto
+{
+	background: url(../img/contacto.png);
+	background-size: 100%;
+}
+.contacto:hover
+{
+	opacity: 1;
+}
+.container
+{
+	background-color: rgba(0,0,0,0.7);
+	margin: 40px 0px 0px 60px;
+	width:100%;
+	border-radius: 5px;
+	
+}
+.contenedor_principal
+{
+	height: auto;
+	margin: auto;
+	width: 960px;
+}
+
+#fade
+{
+	background-color: rgba(1,1,1,0.9);
+	display: none;
+	filter: alpha(opacity=70);
+	height: 100%;
+	left: 0%;
+	moz-opacity: 0.7;
+	opacity: .70;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	z-index: 1001;
+}
+
+footer
+{
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	margin-left:-8px;
+	margin-top:50px;
+	margin-bottom: 0;
+	height: 50px;
+	text-align: center;
+	clear: both;
+}
+
+footer small
+{
+	opacity: 0.5;
+	position: absolute;
+	left: 50px;
+	margin-top:15px;
+	color: #FFF;
+}
+
+h1
+{
+	color: #FFF;
+	font-size:2.4em;
+	margin:3px 10px 0px 0px;
+}
+header
+{
+	background-color: #0971B2;
+	border: solid #000;
+	border-radius: 50px;
+	box-shadow: #000 0 0 30px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-top: 60px;
+	position: relative;
+	width: 35%;
+	z-index: 3;
+}
+
+.inicio
+{
+	background: url(../img/inicio.png);
+	background-size: 100%;
+}
+.inicio,.nosotros,.soporte,.contacto,.servicios
+{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 80px;
+	width: 100px;
+}
+
+#light
+{
+	background-color: #000;
+	display: none;
+	overflow: visible;
+	padding: 10px;
+	position: fixed;
+	top: 40%;
+	left: 37%;
+	z-index: 1002;
+	width: 300px;
+	border-radius: 10px;
+	border: 1px solid #FF0;
+}
+#light p
+{
+	color: #FF0;
+}
+
+
+.Login_mostrar
+{
+	display: none;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+.loginButton
+{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 20px;
+}
+
+.logo
+{
+	background-color: #CCC;
+	background-size: 100%;
+	border: 3px #333 solid;
+	border-radius: 100%;
+	box-shadow: #000 0 10px 50px;
+	float: left;
+	height: 80px;
+	margin-left: -5px;
+	margin-top: -5px;
+	width: 80px;
+}
+.logo .imagen
+{
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:50px;
+	left: -12px;
+	position: relative;
+	top: 10px;
+	width: 100px;
+	
+}
+
+nav
+{ 
+	background: rgba(57,14,87,0.9);
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+	height: auto;
+	position: absolute;
+	top: 210px;
+	width: 100px;
+}
+.nosotros
+{
+	background: url(../img/nosotros.png);
+	background-size: 100%;
+}
+
+.servicios
+{
+	background: url(../img/servicios.png);
+	background-size: 100%;
+}
+
+.soporte
+{
+	background: url(../img/soporte.png);
+	background-size: 100%;
+}
+
+.volver 
+{
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/back.png);
+	position: absolute;
+	right: 40px;
+	bottom: 30px;
+	cursor: pointer;
+}
+
+
