@@ -50,56 +50,56 @@
 		<section class="container">
 		<div class="titulo">
 			<h2>Soporte</h2>
-			<p class="descripcion">Aqui Podras Reportarnos Tus problemas o mejoras</p>
+			<p class="descripcion">En este formulario puedes enviarnos tus quejas/reportes/mejoras.</p>
 		</div>	
 			<div class="dsoporte">
-			<form action="soporte.php" method="post">
+			<form action="soporte.php" class="sform" method="post">
 				<table width="400" border="0">
     				<tr>
     					<td></td>
     					<td>
 					        <select>
-					            <option>Tipo de soporte</option>
-					            <option>Aplicativo de escritorio</option>
-					            <option>Aplicativo movil</option>
-					            <option>Aplicativo web</option>
-					            <option>Otro</option>
+					            <option id="0">Tipo de soporte</option>
+					            <option id="1">Aplicativo de escritorio</option>
+					            <option id="2">Aplicativo movil</option>
+					            <option id="3">Aplicativo web</option>
+					            <option id="4">Otro</option>
 					        </select>
      					</td>
     				</tr>
 
  					 <tr>
     					<td>Nombre</td>
-    					<td><input name="nombre" type="text" placeholder="Nombre" value="" /></td>
+    					<td><input name="nombre" type="text"></td>
  					</tr>
   					
   					<tr>
     					<td>Apellido</td>
-    					<td><input name="apellido" type="text" placeholder="Apellidos"></td>
+    					<td><input name="apellido" type="text"></td>
  	 				</tr>
 
   					<tr>
     					<td>Nombre de usuario</td>
-    					<td><input name="usuario" type="text" placeholder="Nombre de usuario"></td>
+    					<td><input name="usuario" type="text"></td>
   					</tr>
 
   					<tr>
     					<td>Correo</td>
-    					<td><input type="email" name="correo" placeholder="Email"></td>
+    					<td><input type="email" name="correo"></td>
   					</tr>
 
   					<tr>
 					    <td>URL del sitio</td>
-						<td><input type="text" name="sitio" placeholder="Ejemplo: www.acurstin.com"></td>
+						<td><input type="text" name="sitio"></td>
   					</tr>
 
   					<tr>
-    					<td>Reporte</td>
-    					<td><textarea name="problema" cols="30" rows="5" placeholder="Especifique aquí el error."></textarea></td>
+    					<td>Reporte/Queja/Mejora</td>
+    					<td><textarea name="problema" cols="30" rows="5"></textarea></td>
     				</tr>
   
   					<tr>
-    					<td>Id de Pedido</td>
+    					<td>Id de envio</td>
     					<td><input name="idsoporte" type="text" disabled="disabled" id="id" placeholder="00001"></td>
   					</tr>
   
@@ -110,6 +110,7 @@
   
   				</table>
 			</form>
+			
 		</div>
 		</section>
 	</div>

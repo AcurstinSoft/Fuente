@@ -54,17 +54,17 @@ if (!isset($_POST["submit"])) {
   	<table>
   		<tr>
   			<td>Correo</td>
-  			<td><input type="text" name="from" placeholder="nombre@ejemplo.com"></td>
+  			<td><input type="email" name="from"></td>
   		</tr>
 
   		<tr>
   			<td>Asunto</td>
-  			<td><input type="text" name="subject" placeholder="Asunto"></td>
+  			<td><input type="text" name="subject"></td>
   		</tr>
 
   		<tr>
   			<td>Mensaje</td>
-  			<td><textarea rows="10" cols="40" name="message" placeholder="En que te podemos ayudar?"></textarea></td>
+  			<td><textarea rows="5" cols="40" name="message"></textarea></td>
   		</tr>
 
   		<tr>

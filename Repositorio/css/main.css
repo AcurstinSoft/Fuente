@@ -44,7 +44,6 @@ body
 {
 	background:#1E5A69;
 	font-size: 16px;
-	overflow:hidden;
 	background-size: 100%;
 }
 .boton1{
@@ -163,13 +162,14 @@ footer small
 
 h1
 {
-	color: #FFF;
 	font-size:3.4em;
 	margin:3px 10px 0px 0px;
+	position: relative;
+	left: 14px;
 }
 header
 {
-	background-color: #0971B2;
+	background-color: #CCC;
 	border: solid #000;
 	border-radius: 50px;
 	box-shadow: #000 0 0 30px;
@@ -179,7 +179,7 @@ header
 	margin-top: 60px;
 	position: relative;
 	width: 500px;
-	z-index: 3;
+
 }
 
 .inicio
@@ -233,9 +233,9 @@ header
 
 .logo
 {
-	background-color: #CCC;
+	background:#1E5A69;
 	background-size: 100%;
-	border: 3px #333 solid;
+	border: 3px #000 solid;
 	border-radius: 100%;
 	box-shadow: #000 0 10px 50px;
 	float: left;
