@@ -25,35 +25,6 @@ button
 	margin-left: 265px;
 }
 
-.info1
-{	
-	color: #CCC;
-	position: relative;
-	width: 380px;
-	left: 500px;
-	bottom: 80px;
-	
-}
-
-.info1 p
-{
-	margin:0;
-	margin-left:0px;
-}
-
-.info2
-{
-	background-color: #427B91;
-	border-radius: 20px;
-	width: 300px;
-	height: auto;
-	color:#CCC;
-	position: relative;
-	left: 500px;
-	bottom: 300px;
-	padding: 5px;
-}
-
 .formulario
 {
 	color:#FFF;
@@ -61,7 +32,6 @@ button
 	left:60px;
 	top:100px;
 	width: 380px;
-	border-right:1px solid #FFF;
 	padding-right: 13px;
 	z-index: 1;
 }
@@ -76,6 +46,16 @@ button
 	border: none;
 	position: relative;
 	left:340px;
+}
+
+.grupo
+{
+	color: #CCC;
+	width: 400px;
+	position: relative;
+	left: 490px;
+	bottom: 100px;
+	margin-top: 50px;
 }
 
 h2
@@ -96,20 +76,8 @@ h2
 {
 	margin: 1.5px;
 }
-.redes p
-{
-	color: #FFF;
-}
 
-.redes
-{
-	width: 280px;
-	height: 50px;
-	color:#FFF;
-	position: relative;
-	left:510px;
-	bottom:-50px;
-}
+
 .redes img{
 opacity: 0.6;
 }
@@ -148,3 +116,5 @@ textarea
 	width: 300px;
 	text-align: left;
 }
+
+
