@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'iconitos';
+	src:url('../fonts/icomoon.eot?nwmkrn');
+	src:url('../fonts/icomoon.eot?#iefixnwmkrn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?nwmkrn') format('woff'),
+		url('../fonts/icomoon.ttf?nwmkrn') format('truetype'),
+		url('../fonts/icomoon.svg?nwmkrn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.item1:before{
+	font-family: "iconitos";
+	content: "\e616";
+}
+
+.item2:before{
+	font-family: "iconitos";
+	content: "\e617";
+}
+button
+{
+	background: none;
+	border: none;
+	position: absolute;
+	margin-left: 280px;
+}
+
+.info1
+{	
+	color: #CCC;
+	position: relative;
+	width: 380px;
+	left: 500px;
+	bottom: 80px;
+	
+}
+
+.info1 p
+{
+	margin:0;
+	margin-left:0px;
+}
+
+.info2
+{
+	background-color: #427B91;
+	border-radius: 20px;
+	width: 300px;
+	height: auto;
+	color:#CCC;
+	position: relative;
+	left: 500px;
+	bottom: 300px;
+	padding: 5px;
+}
+
+.formulario
+{
+	color:#FFF;
+	position: relative;
+	left:60px;
+	top:100px;
+	width: 380px;
+	border-right:1px solid #FFF;
+	padding-right: 13px;
+	z-index: 1;
+}
+.formulario input[type=text], input[type=email] 
+{
+	width: 300px;
+	text-align: left;
+}
+
+.formulario input[type=image], input[type=reset]
+{
+	border: none;
+	position: relative;
+	left:340px;
+}
+
+h2
+{
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 200px;
+	height: 30px;
+	left: 60px;
+	top: 50px;
+}
+
+
+
+.redes img
+{
+	margin: 1.5px;
+}
+.redes p
+{
+	color: #FFF;
+}
+
+.redes
+{
+	width: 280px;
+	height: 50px;
+	color:#FFF;
+	position: relative;
+	left:510px;
+	bottom:-50px;
+}
+.redes img{
+opacity: 0.6;
+}
+@-webkit-keyframes rotater1 {
+    0% { -webkit-transform:rotate(0) scale(1) }
+	50% { -webkit-transform:rotate(360deg) scale(1) }
+	100% { -webkit-transform:rotate(360deg) scale(1) }
+}
+.redes img:hover{
+	opacity: 1;
+	 /* safari / chrome */
+    -webkit-animation-name:rotater1; 
+    -webkit-animation-duration:1.5s; 
+    -webkit-animation-iteration-count:1; 
+    -webkit-animation-timing-function: ease-out;
+    
+    /* mozilla */
+    -moz-transform:rotate(360deg) scale(2);
+    -moz-transition-duration:1.5s;
+    -moz-transition-timing-function: ease-out;
+    
+    /* opera */
+    -o-transform:rotate(360deg) scale(2);
+    -o-transition-duration:1.5s;
+    -p-transition-timing-function: ease-out;
+    
+    /* ie */
+    -ms-transform:rotate(360deg) scale(2);
+    -ms-transform-duration:1.5s;
+    -ms-transform-timing-function: ease-out;
+	z-index: 1000;
+}
+
+textarea
+{
+	width: 300px;
+	text-align: left;
+}

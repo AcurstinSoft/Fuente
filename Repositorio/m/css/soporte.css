@@ -1,0 +1,46 @@
+form
+{
+	position: relative;
+	width: 400px;
+	height: auto;
+	color: #CCC;
+	left: 250px;
+	top: 50px;
+}
+
+form input[type=text], input[type=email]
+{
+	width: 232px;
+}
+.container
+{
+	padding-bottom: 30px;
+}
+#id
+{
+	width: 40px;
+	text-align: center;
+}
+.descripcion{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   font-size: 12px;
+}
+h2
+{
+	font-size: 2.5em;
+	margin: 0;
+   padding: 0;
+   text-align: center;
+}
+.titulo
+{
+	color:#fff;
+	margin: 0px 40px 0px 40px;
+   padding: 10px;
+   border-bottom: 3px #fff solid;
+}
+.dsoporte{
+	margin: -40px 0px 0px 0px;
+}
