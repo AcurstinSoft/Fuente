@@ -1,8 +1,10 @@
 .container
 {
-	height:580px;
+	height:835px;
 }
-
+.contenido{
+   margin-top: 40px;
+}
 img
 {
 	width: 100%;
