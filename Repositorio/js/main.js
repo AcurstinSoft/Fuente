@@ -153,11 +153,11 @@ device.match(/nokia/i)||
 device.match(/symbian/i)|| 
 device.match(/HTC/i))
  { 
-	window.location = "http://www.acurstinsoft.esy.es/m/"
+	window.location = "http://www.acurstin.com/m"
 }
 else
 {
-
+	
 }
 }
 
