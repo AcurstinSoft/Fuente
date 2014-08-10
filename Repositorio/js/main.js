@@ -153,7 +153,7 @@ device.match(/nokia/i)||
 device.match(/symbian/i)|| 
 device.match(/HTC/i))
  { 
-	window.location = "http://www.m.acurstin.com"
+	window.location = "http://m.acurstin.com"
 }
 else
 {
