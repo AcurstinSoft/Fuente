@@ -16,6 +16,13 @@
 	font-family: 'Roboto',sans-serif;
 	
 }
+
+*::selection 
+{
+   background: #1E5A69;
+   color: #fff;
+}
+
 a
 {
 	color: #FFF;
@@ -165,7 +172,7 @@ h1
 	font-size:3.4em;
 	margin:3px 10px 0px 0px;
 	position: relative;
-	left: 14px;
+	left: 20px;
 }
 header
 {
@@ -178,8 +185,7 @@ header
 	margin-left: 0;
 	margin-top: 60px;
 	position: relative;
-	width: 500px;
-
+	width: 400px;
 }
 
 .inicio

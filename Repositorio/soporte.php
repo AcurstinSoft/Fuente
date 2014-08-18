@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<title>Soporte</title>
 	<meta name="description" content="Soluciones integrales en software">
-	<meta name="keywords" content="acurstinsoft, acurstin, soft, software">
-	<meta name="author" content="Acurstin Soft">
+	<meta name="keywords" content="acurstin, acurstinsoft, soft, software, medellin, colombia, soporte">
+	<meta name="author" content="Acurstin">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Acurstin Soft</title>
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<link rel="stylesheet" href="css/soporte.css" />
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
 	<script src="js/jquery/jquery.min.js"></script>  
 	<script src="js/jquery/jquery-ui.min.js"></script>  
@@ -35,10 +35,10 @@
 		<header> 
 			<div class="logo">
 				<div class="imagen">                     
-					<!--https://www.safecreative.org/work/1403200394525-logo-acurstin-soft-->
+					
 				</div>
 			</div>
-			<h1>Acurstin Soft</h1>
+			<h1>Acurstin</h1>
 		</header>
 		<nav>
 			<a href="index.html"><div class="inicio" title="Inicio"></div></a>
