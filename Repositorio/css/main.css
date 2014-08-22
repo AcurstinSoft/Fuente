@@ -110,10 +110,12 @@ body
 	background: url(../img/contacto.png);
 	background-size: 100%;
 }
+
 .contacto:hover
 {
-	opacity: 1;
+	border-left: 4px solid #FFF;
 }
+
 .container
 {
 	background-color: rgba(0,0,0,0.7);
@@ -126,8 +128,11 @@ body
 .contenedor_principal
 {
 	height: auto;
-	margin: auto;
+	margin:0 auto;
 	width: 960px;
+	background-color: #000;
+	margin-bottom: auto;
+	border-radius: 10px;
 }
 
 #fade
@@ -151,7 +156,7 @@ footer
 	background-color: #000;
 	position: absolute;
 	margin-left:-8px;
-	margin-top:50px;
+	margin-top: 10px;
 	margin-bottom: 0;
 	height: 50px;
 	text-align: center;
@@ -174,18 +179,18 @@ h1
 	position: relative;
 	left: 20px;
 }
+
 header
 {
-	background-color: #CCC;
-	border: solid #000;
+
+	border: solid #fff;
 	border-radius: 50px;
 	box-shadow: #000 0 0 30px;
 	height: 80px;
-	margin-bottom: 20px;
-	margin-left: 0;
-	margin-top: 60px;
+	margin-top: 80px;
 	position: relative;
-	width: 400px;
+	width: 440px;
+	background-color: #1E5A69;;
 }
 
 .inicio
@@ -193,6 +198,12 @@ header
 	background: url(../img/inicio.png);
 	background-size: 100%;
 }
+
+.inicio:hover
+{
+	border-left: 4px solid #FFF;
+}
+
 .inicio,.nosotros,.soporte,.contacto,.servicios
 {
 	background-repeat: no-repeat;
@@ -241,9 +252,8 @@ header
 {
 	background:#1E5A69;
 	background-size: 100%;
-	border: 3px #000 solid;
+	border: 3px #fff solid;
 	border-radius: 100%;
-	box-shadow: #000 0 10px 50px;
 	float: left;
 	height: 150px;
 	margin-left: -15px;
@@ -262,50 +272,64 @@ header
 	width: 180px;
 	
 }
+
+/*
 @-webkit-keyframes rotater {
     0% { -webkit-transform:rotate(0) scale(1) }
 	50% { -webkit-transform:rotate(360deg) scale(1) }
 	100% { -webkit-transform:rotate(360deg) scale(1) }
 }
+Debido a que no funciona igual en todos los navegadores lo deshabilité
+
+
 .logo .imagen:hover{
 	opacity: 1;
-	 /* safari / chrome */
+	  safari / chrome 
     -webkit-animation-name:rotater; 
     -webkit-animation-duration:1s; 
     -webkit-animation-iteration-count:1; 
     -webkit-animation-timing-function: ease-out;
     
-    /* mozilla */
+     mozilla 
     -moz-transform:rotate(360deg) scale(2);
     -moz-transition-duration:1s;
     -moz-transition-timing-function: ease-out;
     
-    /* opera */
+     opera 
     -o-transform:rotate(360deg) scale(2);
     -o-transition-duration:1s;
     -p-transition-timing-function: ease-out;
     
-    /* ie */
+     ie 
     -ms-transform:rotate(360deg) scale(2);
     -ms-transform-duration:1s;
     -ms-transform-timing-function: ease-out;
 	z-index: 1000;
 }
 
+*/
+
 nav
 { 
-	background: rgba(57,14,87,0.9);
-	border-radius: 10px 10px 10px 10px;
+	background: #000;
 	cursor: pointer;
 	height: auto;
 	position: absolute;
 	top: 210px;
-	width: 100px;
+	width:10px;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
+
 .nosotros
 {
 	background: url(../img/nosotros.png);
 	background-size: 100%;
+}
+
+.nosotros:hover
+{
+	border-left: 4px solid #FFF;
 }
 
 .servicios
@@ -314,10 +338,20 @@ nav
 	background-size: 100%;
 }
 
+.servicios:hover
+{
+	border-left: 4px solid #FFF;
+}
+
 .soporte
 {
 	background: url(../img/soporte.png);
 	background-size: 100%;
+}
+
+.soporte:hover
+{
+	border-left: 4px solid #FFF;
 }
 
 .volver 
@@ -330,5 +364,6 @@ nav
 	bottom: 30px;
 	cursor: pointer;
 }
+
 
 

@@ -26,7 +26,6 @@ jQuery.fn.resetear = function () {
 	$('#fade').click(function(){lightbox_close4();});
 	$('#light5').click(function(){lightbox_close5();});
 	$('#fade').click(function(){lightbox_close5();});
-	
 	$('.item1').click(function(event){lightbox_open1(event)});
 	$('.item2').click(function(event){lightbox_open2(event)});
 	$('.item3').click(function(event){lightbox_open3(event)});
@@ -63,7 +62,7 @@ $(document).ready(function(){
   });
   $(".soporte").click(function(event){
     event.preventDefault();
-    alert("debes estar registrado para acceder")
+    alert("Debes estar registrado para acceder")
   });
 });
 //item1

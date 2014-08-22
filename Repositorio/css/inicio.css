@@ -47,6 +47,12 @@ li:first-child{
 	border-bottom: solid 1px #fff;
 	padding: 0px 0px 5px 0px;
 }
+
+li:last-child{
+	border-bottom: solid 1px #fff;
+	padding: 0px 0px 5px 0px;
+}
+
 li a{
 	padding: 0px 0px 0px 12px;
 }

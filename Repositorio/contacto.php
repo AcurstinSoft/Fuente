@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<title>Contactenos</title>
-	<meta name="description" content="Soluciones integrales en software">
+	<meta name="description" content="Acurstin es un equipo de dos desarrolladores freelance que ofrece soluciones integrales en software desde Medellin Colombia para todo el mundo. Exelente relacion con el cliente. Software a la medida, optimizacion de sitios web, entre otras. No dude en contactarnos.">
 	<meta name="keywords" content="acurstin, acurstinsoft, soft, software, medellin, colombia, contacto">
 	<meta name="author" content="Acurstin">
 	<meta charset="UTF-8">
@@ -41,7 +41,7 @@
 			<a href="index.html"><div class="inicio" title="Inicio"></div></a>
 			<a href="nosotros.html"><div class="nosotros" title="Nosotros"></div>
 			<a href="portafolio.html"><div class="servicios" title="Servicios"></div></a>
-			<a href="soporte.html" title="Soporte"><div class="soporte"></div>
+			<a href="soporte.php" title="Soporte"><div class="soporte"></div>
 			<a href="contacto.php"><div class="contacto" title="Contacto"></div></a>
 		</nav>
 	<section class="container">	
