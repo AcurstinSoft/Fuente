@@ -3,17 +3,13 @@
 <head>
 	<title>Soporte</title>
 	<meta name="googlebot" content="noindex">
-	<meta name="description" content="Acurstin es un equipo de dos desarrolladores freelance que ofrece soluciones integrales en software desde Medellin Colombia para todo el mundo. Exelente relacion con el cliente. Software a la medida, optimizacion de sitios web, entre otras. No dude en contactarnos.">
-	<meta name="keywords" content="acurstin, acurstinsoft, soft, software, medellin, colombia, soporte">
-	<meta name="author" content="Acurstin">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<link rel="stylesheet" href="css/soporte.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
 	<script src="js/jquery/jquery.min.js"></script>  
 	<script src="js/jquery/jquery-ui.min.js"></script>  
@@ -36,7 +32,7 @@
 		<header> 
 			<div class="logo">
 				<div class="imagen">                     
-					
+				
 				</div>
 			</div>
 			<h1>Acurstin</h1>

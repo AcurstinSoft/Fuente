@@ -28,6 +28,7 @@ h2{
 	margin: 0px 0px 0px 0px;
 	text-align: left;
 	font-size: 35px;
+	color: #D4450B;
 }
 .texto{
 	margin: 10px 0px 0px 0px;
@@ -134,7 +135,7 @@ h3{
 	content: "\e608";
 }
 .plugin{
-	background: #8AFF92;
+	background: #000;
 	height: 300px;
 	width: 260px;
 }

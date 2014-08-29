@@ -16,13 +16,6 @@
 	font-family: 'Roboto',sans-serif;
 	
 }
-
-*::selection 
-{
-   background: #1E5A69;
-   color: #fff;
-}
-
 a
 {
 	color: #FFF;
@@ -40,7 +33,9 @@ a:hover
 	top: 0px;
 	width: 100%;
 	margin-left:-8px;
-	border-bottom: 2px solid #FFF;
+	-webkit-box-shadow: 0px 6px 18px 0px rgba(255, 255, 255, 0.39);
+-moz-box-shadow:    0px 6px 18px 0px rgba(255, 255, 255, 0.39);
+box-shadow:         0px 6px 18px 0px rgba(255, 255, 255, 0.39);
 }
 
 .barrasuperior a:hover
@@ -51,8 +46,6 @@ a:hover
 body
 {
 	background:#1E5A69;
-	font-size: 16px;
-	background-size: 100%;
 }
 .boton1{
 }
@@ -114,27 +107,24 @@ body
 
 .contacto:hover
 {
-	border-left: 4px solid #FFF;
+	border-left: 4px solid #D4450B;
 }
 
 .container
 {
-	height: auto;
 	margin: 40px 0px 0px 60px;
-	width: 900px;
-	border-radius: 5px;
-	
+	height: 500px;
 }
 .contenedor_principal
 {
 	height: auto;
 	margin:0 auto;
 	width: 960px;
+	margin-bottom: 50px;
 	background-color: #000;
-	margin-bottom: auto;
-	border-left: solid 2px #FFF;
-	border-right: solid 2px #FFF;
-	border-top: solid 2px #FFF;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	
 }
 
 #fade
@@ -162,7 +152,9 @@ footer
 	height: 50px;
 	text-align: center;
 	clear: both;
-	border-top: 2px solid #FFF;
+	-webkit-box-shadow: 0px -6px 18px 0px rgba(255, 255, 255, 0.39);
+	-moz-box-shadow:    0px -6px 18px 0px rgba(255, 255, 255, 0.39);
+	box-shadow:         0px -6px 18px 0px rgba(255, 255, 255, 0.39);
 }
 
 footer small
@@ -179,20 +171,18 @@ h1
 	font-size:3.4em;
 	margin:3px 10px 0px 0px;
 	position: relative;
-	left: 20px;
+	left: 14px;
+	color: #000;
 }
 
 header
 {
-
-	border: solid #fff;
 	height: 80px;
 	margin-top: 80px;
-	margin-left: -3px;
-	/*box-shadow: 0 5px 50px #FFF;*/
 	position: relative;
-	width: 100%;
-	background-color: #1E5A69;
+	width:100%;
+	background-color: #D4450B;
+	border-radius: 10px 10px 0 0;
 }
 
 .inicio
@@ -203,7 +193,7 @@ header
 
 .inicio:hover
 {
-	border-left: 4px solid #FFF;
+	border-left: 4px solid #D4450B;
 }
 
 .inicio,.nosotros,.soporte,.contacto,.servicios
@@ -232,7 +222,6 @@ header
 {
 	color: #FF0;
 }
-
 
 .Login_mostrar
 {
@@ -331,7 +320,7 @@ nav
 
 .nosotros:hover
 {
-	border-left: 4px solid #FFF;
+	border-left: 4px solid #D4450B;
 }
 
 .servicios
@@ -342,7 +331,7 @@ nav
 
 .servicios:hover
 {
-	border-left: 4px solid #FFF;
+	border-left: 4px solid #D4450B;
 }
 
 .soporte
@@ -353,7 +342,7 @@ nav
 
 .soporte:hover
 {
-	border-left: 4px solid #FFF;
+	border-left: 4px solid #D4450B;
 }
 
 .volver 
