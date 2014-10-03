@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<title>Registro</title>
-	<meta name="googlebot" content="noindex">
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="img/favicon.ico" />
-	<link rel="stylesheet" href="css/registro.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
-	<script src="js/jquery/jquery.min.js"></script>  
-	<script src="js/jquery/jquery-ui.min.js"></script>  
-	<script src="js/main.js"></script> 
-</head>
-<body>
-	<div class ="barrasuperior">	
-	<h2>Formulario de registro para clientes nuevos</h2>	
-	</div> 
-	</div>
-	<div class="contenedor_principal">
-		<header> 
-			<div class="logo">
-				<div class="imagen">                     
-				
+	<head>
+		<title>Registro</title>
+		<meta name="googlebot" content="noindex">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/registro.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> 
+		<script src="js/jquery/jquery.min.js"></script>  
+		<script src="js/jquery/jquery-ui.min.js"></script>  
+		<script src="js/main.js"></script> 
+	</head>
+	<body>
+		<div class ="barrasuperior">	
+			<h2>Formulario de registro para clientes nuevos</h2>	
+		</div>
+
+		<div class="contenedor_principal">
+			<header> 
+				<div class="logo">
+					<div class="imagen">                     
+					</div>
 				</div>
-			</div>
-			<h1>Acurstin</h1>
-		</header>
-		<section class="container">	
-			<p>Por favor ingrese sus datos en todos los campos, los suyos y los de su empresa. De ser independiente solo llene su informacion personal.</p>
-				
-				<form action="envioregistro.php" method="post">	
-					<table>
+				<h1>Acurstin</h1>
+			</header>
+
+			<section class="container">	
+				<p>Por favor ingrese sus datos en todos los campos, los suyos y los de su empresa. De ser independiente solo llene su informacion personal.</p>
+					<form action="envioregistro.php" method="post">	
+						<table>
 							<tr>	
 								<td></td>
 								<td id="ftd">Informacion Personal</td>
@@ -97,14 +96,15 @@
 								<td><input type="submit" name="enviar" value="Enviar registro"></td>
 								<td><input type="reset" value="Limpiar campos"></td>
 							</tr>	
-					</table>	
+						</table>	
 
-				</form>	
-		</section>
-	</div>
+					</form>	
+			</section>
+		</div>
+
 		<footer>
-			<small>&copy Copyright Acurstin</small>
+			<small>&copy; Copyright Acurstin</small>
 			<div class="volver" onclick="subir();return false"> </div>
 		</foooter>
-</body> 
+	</body> 
 </html> 
